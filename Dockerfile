@@ -5,7 +5,7 @@ FROM node:18
 WORKDIR /usr/src/app
 
 # Default API address (embedded at build-time; overrideable at build/run)
-ENV API_ADDRESS=https://three-data-366493121060.europe-west1.run.app
+ENV API_ADDRESS=https://three-3-data-backend-118810105777.europe-north2.run.app
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
